@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Car Dealership</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="Index.html">Home</a>
+        <a href="cars in stock.html">Cars in Stock</a>
+        <a href="sell your car.html">Sell your car</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact us</a>
+        <a href="financing.html">Financing</a>
+        <a href="site login.html">Login</a>
+        <a href="user signup.html">Signup</a>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>About Us</h1>
+        </header>
+        
+        <main>
+            <section id="company-overview">
+                <h2>Company Overview</h2>
+                <p>
+                    Welcome to Our Car Dealership, where we offer a wide selection of new and pre-owned vehicles. Our mission is to provide high-quality cars and exceptional customer service to ensure a smooth and enjoyable car buying experience. Established in 2000, we have over two decades of experience in the automotive industry and have built a reputation for reliability, integrity, and customer satisfaction.
+                </p>
+            </section>
+            
+            <section id="our-mission">
+                <h2>Our Mission</h2>
+                <p>
+                    Our mission is to be the leading car dealership in the region by offering a diverse range of vehicles and exceptional services that exceed customer expectations. We aim to make the car buying process as straightforward and enjoyable as possible, providing our customers with all the information they need to make informed decisions.
+                </p>
+            </section>
+            
+            <section id="our-vision">
+                <h2>Our Vision</h2>
+                <p>
+                    Our vision is to create a world where buying and selling cars is seamless and hassle-free. We strive to be the most trusted and respected car dealership by continually innovating and improving our services to meet the evolving needs of our customers.
+                </p>
+            </section>
+            
+            <section id="our-values">
+                <h2>Our Values</h2>
+                <ul>
+                    <li><strong>Integrity:</strong> We uphold the highest standards of integrity in all our actions.</li>
+                    <li><strong>Customer Commitment:</strong> We develop relationships that make a positive difference in our customers' lives.</li>
+                    <li><strong>Quality:</strong> We provide outstanding products and unsurpassed service that, together, deliver premium value to our customers.</li>
+                    <li><strong>Teamwork:</strong> We work together, across boundaries, to meet the needs of our customers and to help the company win.</li>
+                    <li><strong>Respect for People:</strong> We value our people, encourage their development, and reward their performance.</li>
+                </ul>
+            </section>
+            
+            <section id="our-services">
+                <h2>Our Services</h2>
+                <p>
+                    At Our Car Dealership, we offer a variety of services to meet all your automotive needs:
+                </p>
+                <ul>
+                    <li><strong>Selling Cars:</strong> We have a wide range of new and pre-owned cars for sale to fit every budget and preference.</li>
+                    <li><strong>Selling Cars on Behalf of Others:</strong> We assist individuals in selling their cars by offering our dealership as a platform to reach more buyers and get the best price.</li>
+                    <li><strong>Financing for Cars:</strong> We provide competitive financing options to help you purchase your dream car with ease.</li>
+                    <li><strong>Car Maintenance and Repair:</strong> Our experienced technicians are available to handle all your car maintenance and repair needs, ensuring your vehicle remains in top condition.</li>
+                </ul>
+            </section>
+            
+            <section id="our-team">
+                <h2>Meet Our Team</h2>
+                <div class="team-member">
+                    <img src="team-member1.jpg" alt="John Doe">
+                    <h3>Lewis Mwangi</h3>
+                    <p><strong>CEO & Founder</strong></p>
+                    <p>John has over 30 years of experience in the automotive industry and founded Our Car Dealership in 2000. His vision and leadership have been instrumental in driving the company's success.</p>
+                </div>
+                <!-- Add more team members as needed -->
+            </section>
+            
+            <section id="customer-reviews">
+                <h2>Customer Reviews</h2>
+                <div class="review">
+                    <p>"I had a great experience buying my car here. The staff were friendly and helpful, and I love my new car!" - Sarah L.</p>
+                </div>
+                <div class="review">
+                    <p>"The financing options were excellent and made it possible for me to get my dream car. Highly recommend!" - David M.</p>
+                </div>
+                <div class="review">
+                    <p>"Fantastic service from start to finish. They helped me sell my old car and buy a new one with ease." - Emily R.</p>
+                </div>
+                <!-- Add more reviews as needed -->
+            </section>
+            
+            <section id="contact-info">
+                <h2>Contact Us</h2>
+                <p>For more information, feel free to reach out to us:</p>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Stallion Dealership</p>
+        </footer>
+    </div>
+</body>
+</html>
