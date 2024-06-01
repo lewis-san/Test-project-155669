@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financing - Car Dealership</title>
+    <link rel="stylesheet" href="financing.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="Index.html">Home</a>
+        <a href="cars in stock.html">Cars in Stock</a>
+        <a href="sell your car.html">Sell your car</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact us</a>
+        <a href="financing.html">Financing</a>
+        <a href="site login.html">Login</a>
+        <a href="user signup.html">Signup</a>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Car Financing</h1>
+        </header>
+        
+        <main>
+            <section id="financing-overview">
+                <h2>Financing Overview</h2>
+                <p>
+                    At Our Car Dealership, we understand that buying a car is a significant investment. That’s why we offer a range of financing options to help make your dream car a reality. Our goal is to provide you with flexible and affordable financing solutions tailored to your individual needs.
+                </p>
+            </section>
+            
+            <section id="financing-options">
+                <h2>Our Financing Options</h2>
+                <ul>
+                    <li><strong>New Car Financing:</strong> Competitive interest rates and flexible terms for new car purchases.</li>
+                    <li><strong>Used Car Financing:</strong> Affordable financing solutions for pre-owned vehicles.</li>
+                    <li><strong>Trade-In Assistance:</strong> Get the most value for your trade-in and apply it towards your new purchase.</li>
+                    <li><strong>Refinancing:</strong> Lower your monthly payments or reduce your interest rate by refinancing your current loan.</li>
+                </ul>
+            </section>
+            
+            <section id="why-finance-with-us">
+                <h2>Why Finance with Us?</h2>
+                <ul>
+                    <li><strong>Expert Guidance:</strong> Our finance experts are here to help you find the best financing option for your situation.</li>
+                    <li><strong>Flexible Terms:</strong> We offer flexible loan terms to fit your budget and financial goals.</li>
+                    <li><strong>Quick Approval:</strong> Get quick and easy approval with our streamlined financing process.</li>
+                    <li><strong>No Hidden Fees:</strong> Transparent financing with no hidden costs or fees.</li>
+                </ul>
+            </section>
+            <!--customers can easily calculate their expenses here-->
+            <section id="financing-calculator">
+                <h2>Financing Calculator</h2>
+                <p>Use our financing calculator to estimate your monthly payments:</p>
+                <form id="calculator-form">
+                    <div class="form-group">
+                        <label for="vehicle-price">Vehicle Price:</label>
+                        <input type="number" id="vehicle-price" name="vehicle-price" required>
+                    </div>
+                    <!--additional info-->
+                    <div class="form-group">
+                        <label for="down-payment">Down Payment:</label>
+                        <input type="number" id="down-payment" name="down-payment" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="loan-term">Loan Term (years):</label>
+                        <input type="number" id="loan-term" name="loan-term" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="interest-rate">Interest Rate (%):</label>
+                        <input type="number" id="interest-rate" name="interest-rate" step="0.01" required>
+                    </div>
+                    
+                    <button type="button" onclick="calculatePayment()">Calculate</button>
+                </form>
+                
+                <p id="monthly-payment"></p>
+            </section>
+            <!--after everything they finish their application here-->
+            <section id="apply-now">
+                <h2>Apply for Financing</h2>
+                <p>Ready to get started? Apply for financing today by filling out our online application form:</p>
+                <a href="apply-for-financing.html" class="btn">Apply Now</a>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Car Dealership</p>
+        </footer>
+    </div>
+    
+    <script>
+        function calculatePayment() {
+            const price = document.getElementById('vehicle-price').value;
+            const downPayment = document.getElementById('down-payment').value;
+            const term = document.getElementById('loan-term').value;
+            const interestRate = document.getElementById('interest-rate').value;
+            
+            if(price && downPayment && term && interestRate) {
+                const loanAmount = price - downPayment;
+                const monthlyRate = interestRate / 100 / 12;
+                const numberOfPayments = term * 12;
+                const monthlyPayment = (loanAmount * monthlyRate) / (1 - Math.pow(1 + monthlyRate, -numberOfPayments));
+                
+                document.getElementById('monthly-payment').textContent = `Estimated Monthly Payment: $${monthlyPayment.toFixed(2)}`;
+            } else {
+                document.getElementById('monthly-payment').textContent = 'Please fill out all fields.';
+            }
+        }
+    </script>
+</body>
+</html>
