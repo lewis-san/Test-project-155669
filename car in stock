@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Vehicles - Car Dealership</title>
+    <link rel="stylesheet" href="cars_in_stock.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="cars_in_stock.html">Cars in Stock</a>
+        <a href="sell_your_car.html">Sell your car</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact us</a>
+        <a href="financing.html">Financing</a>
+        <a href="faq.html">FAQ</a>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Our Vehicles</h1>
+        </header>
+        <!--display our wide selection of vehicles here-->
+        <main>
+            <section id="vehicle-stock">
+                <h2>Explore Our Vast Vehicle Stock</h2>
+                <p>
+                    At Our Car Dealership, we offer a wide range of vehicles to suit every need and budget. From brand new models to quality pre-owned cars, we have something for everyone. Browse through our extensive collection and find your perfect match today!
+                </p>
+                
+                <div class="vehicle-grid">
+                    <!-- Vehicle 1 -->
+                    <div class="vehicle">
+                        <img src="cars/tesla.jpeg" alt="2024 Tesla Model S">
+                        <h3>2024 Tesla Model S</h3>
+                        <p><strong>Price:</strong> 6,000,000 Ksh</p>
+                        <p><strong>Mileage:</strong> 0 km</p>
+                        <p><strong>Year:</strong> 2024</p>
+                        <button>View Details</button>
+                    </div>
+                    
+                    <!-- Vehicle 2 -->
+                    <div class="vehicle">
+                        <img src="cars/bmw.jpeg" alt="2023 BMW X5">
+                        <h3>2023 BMW X5</h3>
+                        <p><strong>Price:</strong> 4,800,000 Ksh</p>
+                        <p><strong>Mileage:</strong> 150,000 km</p>
+                        <p><strong>Year:</strong> 2020</p>
+                        <button>View Details</button>
+                    </div>
+                    
+                    <!-- Vehicle 3 -->
+                    <div class="vehicle">
+                        <img src="cars/audi.jpeg" alt="2022 Audi A4">
+                        <h3>2022 Audi A4</h3>
+                        <p><strong>Price:</strong> 2,400,000 Ksh</p>
+                        <p><strong>Mileage:</strong> 100,000 km</p>
+                        <p><strong>Year:</strong> 2022</p>
+                        <button>View Details</button>
+                    </div>
+                    
+                    <!-- Vehicle 4 -->
+                    <div class="vehicle">
+                        <img src="cars/mercedes.jpeg" alt="2021 Mercedes-Benz C-Class">
+                        <h3>2021 Mercedes-Benz C-Class</h3>
+                        <p><strong>Price:</strong> 2,800,000 Ksh</p>
+                        <p><strong>Mileage:</strong> 20,000 km</p>
+                        <p><strong>Year:</strong> 2021</p>
+                        <button>View Details</button>
+                    </div>
+                    
+                    <!-- Vehicle 5 -->
+                    <div class="vehicle">
+                        <img src="cars/honda.jpeg" alt="2020 Honda Civic">
+                        <h3>2020 Honda Civic</h3>
+                        <p><strong>Price:</strong> 1,200,000 Ksh</p>
+                        <p><strong>Mileage:</strong> 130,000 km</p>
+                        <p><strong>Year:</strong> 2020</p>
+                        <button>View Details</button>
+                    </div>
+                    
+                    <!-- Vehicle 6 -->
+                    <div class="vehicle">
+                        <img src="cars/toyota.jpeg" alt="2019 Toyota Corolla">
+                        <h3>2019 Toyota Corolla</h3>
+                        <p><strong>Price:</strong> 900,000 Ksh</p>
+                        <p><strong>Mileage:</strong> 200,000 km</p>
+                        <p><strong>Year:</strong> 2019</p>
+                        <button>View Details</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Stallion Dealership</p>
+        </footer>
+    </div>
+</body>
+</html>
