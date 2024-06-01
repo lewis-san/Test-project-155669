@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Dealership</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="Index.html">Home</a>
+        <a href="cars in stock.html">Cars in Stock</a>
+        <a href="sell your car.html">Sell your car</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact us</a>
+        <a href="financing.html">Financing</a>
+        <a href="FAQ.html">FAQ</a>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Welcome to Stallion Dealrship</h1>
+        </header>
+        
+        <main>
+            <section id="services">
+                <h2>Our Services</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Selling Cars</td>
+                            <td>We offer a wide variety of cars for sale.</td>
+                        </tr>
+                        <tr>
+                            <td>Selling Cars on Behalf of Others</td>
+                            <td>We help you sell your car at the best price.</td>
+                        </tr>
+                        <tr>
+                            <td>Financing for Cars</td>
+                            <td>We provide financing options for your car purchase.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Stallion Dealership</p>
+        </footer>
+    </div>
+</body>
+</html>
