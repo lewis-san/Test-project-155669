@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fa;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h3 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #1da1f2;
+}
+
+.box {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0d8bf0;
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    color: #a94442;
+    border-radius: 4px;
+}
+
+.message:last-child {
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+p a {
+    color: #1da1f2;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
